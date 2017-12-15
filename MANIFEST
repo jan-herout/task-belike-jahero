@@ -8,5 +8,6 @@ META.yml
 Makefile.PL
 README
 dist.ini
+dist.ini.bak
 lib/Task/BeLike/JAHERO.pm
 weaver.ini

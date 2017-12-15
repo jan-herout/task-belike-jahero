@@ -1,5 +1,5 @@
 package Task::BeLike::JAHERO;
-
+our $VERSION = '1.173490'; # VERSION
 # ABSTRACT: JAHERO's frequently-used or favorite modules
 
 #use App::Cmd                           ;

@@ -5,8 +5,6 @@ copyright_holder = Jan Herout
 copyright_year   = 2017
 
 [AutoVersion]
-[OurPkgVersion] ; this needs a line with a '# VERSION' comment on it, after package declaration
-
 [NextRelease]
 [InstallGuide]
 [MetaJSON]

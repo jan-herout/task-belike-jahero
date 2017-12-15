@@ -7,7 +7,7 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "JAHERO's frequently-used or favorite modules\r",
+  "ABSTRACT" => "JAHERO's frequently-used or favorite modules",
   "AUTHOR" => "Jan Herout <jan.herout\@gmail.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
