@@ -2,7 +2,43 @@ package Task::BeLike::JAHERO;
 
 # ABSTRACT: JAHERO's frequently-used or favorite modules
 
+use App::Cmd                           ;
+use File::Compare                      ;
+use File::Find::Rule                   ;
+use Path::Tiny                         ;
+use Try::Tiny                          ;
+use YAML::XS                           ;
+use Moo                                ;
+use MooX::Role::Logger                 ;
+use MooX::Types::Mooselike::Base       ;
+use Beam::Wire                         ;
+use Test2                              ;
+use Test2::Suite                       ;
+use DBI                                ;
+use DBIx::Simple                       ;
+use Log::Any                           ;
+use Log::Any::Adapter                  ;
+use Log::Any::Adapter::Log4perl        ;
+use Parse::CSV                         ;
+use DateTime                           ;
+
+
+
+1;
+
+__END__
+
 =pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+Task::BeLike::JAHERO - JAHERO's frequently-used or favorite modules
+
+=head1 VERSION
+
+version 1.173490
 
 =head SYNOPSIS
 
@@ -11,11 +47,9 @@ It can, however, be used to install several other usefull modules.
 
 =head1 TASK CONTENTS
 
-
 =head2 CLI modules
 
 =head3 L<App::Cmd>
-
 
 =head2 FILESYSTEM modules
 
@@ -24,7 +58,6 @@ It can, however, be used to install several other usefull modules.
 =head3 L<File::Find::Rule>
 
 =head3 L<Path::Tiny>
-
 
 =head2 BUILDING BLOCKs
 
@@ -40,20 +73,17 @@ It can, however, be used to install several other usefull modules.
 
 =head3 L<Beam::Wire>
 
-
 =head2 TESTING modules
 
 =head3 L<Test2::V0>
 
 =head3 L<Test2::Bundle::More>
 
-
 =head2 DATABASE ACCESS modules
 
 =head3 L<DBI>
 
 =head3 L<DBIx::Simple>
-
 
 =head2 LOGGING modules
 
@@ -63,15 +93,30 @@ It can, however, be used to install several other usefull modules.
 
 =head3 L<Log::Any::Adapter::Log4perl>
 
-
 =head2 OTHERs
 
 =head3 L<Parse::CSV>
 
 =head3 L<DateTime>
 
+=head1 SUPPORT
+
+=head1 SOURCE
+
+The source code repository for Task-BeLike-JAHERO-DO2 can be found at L<>.
+
+=head1 AUTHOR
+
+Jan Herout <jan.herout@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2017 by Jan Herout.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+The full text of the license can be found in the
+F<LICENSE> file included with this distribution.
 
 =cut
-
-1;
-
