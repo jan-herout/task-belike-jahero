@@ -2,6 +2,27 @@ package Task::BeLike::JAHERO;
 
 # ABSTRACT: JAHERO's frequently-used or favorite modules
 
+#use App::Cmd                           ;
+#use File::Compare                      ;
+#use File::Find::Rule                   ;
+#use Path::Tiny                         ;
+#use Try::Tiny                          ;
+#use YAML::XS                           ;
+#use Moo                                ;
+#use MooX::Role::Logger                 ;
+#use MooX::Types::Mooselike::Base       ;
+#use Beam::Wire                         ;
+#use Test2                              ;
+#use Test2::Suite                       ;
+#use DBI                                ;
+#use DBIx::Simple                       ;
+#use Log::Any                           ;
+#use Log::Any::Adapter                  ;
+#use Log::Any::Adapter::Log4perl        ;
+#use Parse::CSV                         ;
+#use DateTime                           ;
+
+
 =pod
 
 =head SYNOPSIS
