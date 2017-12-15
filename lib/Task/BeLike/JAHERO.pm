@@ -1,5 +1,5 @@
 package Task::BeLike::JAHERO;
-
+# VERSION
 # ABSTRACT: JAHERO's frequently-used or favorite modules
 
 #use App::Cmd                           ;
