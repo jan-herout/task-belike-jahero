@@ -32,6 +32,5 @@ requires:
   Test2::Suite: '0'
   Try::Tiny: '0'
   YAML::XS: '0'
-resources: {}
 version: '1.173490'
 x_serialization_backend: 'YAML::Tiny version 1.69'

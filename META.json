@@ -44,10 +44,6 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "bugtracker" : {},
-      "repository" : {}
-   },
    "version" : "1.173490",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225"
 }

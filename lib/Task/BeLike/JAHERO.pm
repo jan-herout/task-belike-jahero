@@ -99,24 +99,11 @@ It can, however, be used to install several other usefull modules.
 
 =head3 L<DateTime>
 
-=head1 SUPPORT
-
-=head1 SOURCE
-
-The source code repository for Task-BeLike-JAHERO-DO2 can be found at L<>.
-
-=head1 AUTHOR
-
-Jan Herout <jan.herout@gmail.com>
-
-=head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND <license filename>
 
 This software is copyright (c) 2017 by Jan Herout.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-The full text of the license can be found in the
-F<LICENSE> file included with this distribution.
 
 =cut
