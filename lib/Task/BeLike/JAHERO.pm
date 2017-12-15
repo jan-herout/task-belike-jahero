@@ -1,49 +1,77 @@
 package Task::BeLike::JAHERO;
-# ABSTRACT: golum golum
-use v5.14;
-use strict;
-use warnings;
-no indirect;                # dies { method_name ClassName @args; } lives { ClassName->method_name(@args) }
-no multidimensional;        # dies { $hash{1, 2} } lives{ $hash{join($;, 1, 2)}; }
-use autodie qw/:all/;
-use utf8;
-use Carp;
 
-# use File::Find::Rule ;    # my @files = File::Find::Rule->file()->name('*.tpt')->in($OPT_source);
-# use Path::Tiny;           # my $file = path("d:")->path("temp")->path("test.pl"); my $content = $file->slurp; say path("d:/test.pl")->slurp;
+# ABSTRACT: JAHERO's frequently-used or favorite modules
 
-# Synopsis -----------------------------------------------------
 =pod
 
-=head1 SYNOPSIS
+=head SYNOPSIS
+
+This module does nothing usefull if you use it in your code. 
+It can, however, be used to install several other usefull modules.
+
+=head1 TASK CONTENTS
+
+
+=head2 CLI modules
+
+=head3 L<App::Cmd>
+
+
+=head2 FILESYSTEM modules
+
+=head3 L<File::Compare>
+
+=head3 L<File::Find::Rule>
+
+=head3 L<Path::Tiny>
+
+
+=head2 BUILDING BLOCKs
+
+=head3 L<Try::Tiny>
+
+=head3 L<YAML::XS>
+
+=head3 L<Moo>
+
+=head3 L<MooX::Role::Logger>
+
+=head3 L<MooX::Types::Mooselike::Base>
+
+=head3 L<Beam::Wire>
+
+
+=head2 TESTING modules
+
+=head3 L<Test2::V0>
+
+=head3 L<Test2::Bundle::More>
+
+
+=head2 DATABASE ACCESS modules
+
+=head3 L<DBI>
+
+=head3 L<DBIx::Simple>
+
+
+=head2 LOGGING modules
+
+=head3 L<Log::Any>
+
+=head3 L<Log::Any::Adapter>
+
+=head3 L<Log::Any::Adapter::Log4perl>
+
+
+=head2 OTHERs
+
+=head3 L<Parse::CSV>
+
+=head3 L<DateTime>
+
 
 =cut
-# End of synopsis-----------------------------------------------
-
-#---------------------------------------------------------------
-=pod
-
-=method method_x
-
-This does ....
-
-=cut
-#---------------------------------------------------------------
-sub method_x {
-
-}
-
-
-
-=head1 SEE ALSO
-
-=for :list
-* L<Your::Module>
-* L<Your::Package>
-
-=cut
-
 
 1;
-
 
