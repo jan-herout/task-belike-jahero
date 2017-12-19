@@ -25,7 +25,7 @@ package Task::BeLike::JAHERO;
 
 =pod
 
-=head SYNOPSIS
+=head1 SYNOPSIS
 
 This module does nothing usefull if you use it in your code. 
 It can, however, be used to install several other usefull modules.
